@@ -15,11 +15,12 @@ function errorHandler(error) {
 
 function clickHandler(){
     var inputText = txtInput.value;
-   fetch(getTranslationURL(inputText))
+    let url =  getTranslationURL(inputText);
+   fetch(url)
    .then(response => response.json())
    .then(json => {
     var translatedText = json.contents.translated;
-    outputDiv.innerText = json.translatedText;
+    outputDiv.innerText = translatedText;
    })
    .catch(errorHandler)
 };
