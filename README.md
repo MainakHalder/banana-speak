@@ -1,2 +1,8 @@
 # banana-speak
- coded in vanilla.js
+
+## Features of these app-
+
+These app is made on vanilla js which give and take api call for translation of text made by the user
+
+- Large text area is provided to the user
+- error is handled
