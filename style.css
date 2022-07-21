@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    background-color: green;
+}
+.heading{
+    text-align: center;
+    color: yellowgreen;
+}
+#txt-input{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+#btn-translate{
+    width: 30%;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: yellowgreen;
+}
