@@ -6,3 +6,5 @@ These app is made on vanilla js which give and take api call for translation of 
 
 - Large text area is provided to the user
 - error is handled
+
+#### link - https://banana-speak-projectapi.netlify.app/
