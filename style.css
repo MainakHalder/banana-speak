@@ -1,9 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 50%;
+    margin: 0;
     background-color: green;
+    align-items: center;
 }
 .heading{
     text-align: center;
@@ -19,4 +19,33 @@ body{
     margin: 1rem;
     padding: 0.5rem;
     background-color: yellowgreen;
+}
+.footer{
+    background-color: yellow;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: green;
+    border-top-right-radius: 1rem;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+.footer .link{
+    color: green;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer ul li{
+    display: inline;
+}
+main{
+    width: 600px;
+    margin: auto;
 }
